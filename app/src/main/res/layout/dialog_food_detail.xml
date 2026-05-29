@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hero header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/gradient_green"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvDetailEmoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍎"
+                android:textSize="52sp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvDetailName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/tvDetailCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruit"
+                android:textColor="#C8F6C8"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/tvDetailCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="52 kcal per 100g"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Macros row -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Macronutrients"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="14dp">
+
+                <!-- Carbs -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#FFF8E1"
+                    android:padding="10dp"
+                    android:layout_marginEnd="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🌾" android:textSize="22sp" />
+                    <TextView android:id="@+id/tvDetailCarbs" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="14g" android:textColor="#E65100" android:textSize="16sp" android:textStyle="bold" android:layout_marginTop="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Carbs" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                </LinearLayout>
+
+                <!-- Protein -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#E8F5E9"
+                    android:padding="10dp"
+                    android:layout_marginEnd="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💪" android:textSize="22sp" />
+                    <TextView android:id="@+id/tvDetailProtein" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="0.3g" android:textColor="@color/colorPrimary" android:textSize="16sp" android:textStyle="bold" android:layout_marginTop="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Protein" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                </LinearLayout>
+
+                <!-- Fat -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#FCE4EC"
+                    android:padding="10dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🧈" android:textSize="22sp" />
+                    <TextView android:id="@+id/tvDetailFat" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="0.2g" android:textColor="#AD1457" android:textSize="16sp" android:textStyle="bold" android:layout_marginTop="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fat" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Vitamins & Minerals -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vitamins &amp; Minerals"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Fiber row -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:text="🌿  Fiber" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                <TextView android:id="@+id/tvDetailFiber" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="2.4g" android:textColor="@color/colorPrimary" android:textStyle="bold" android:textSize="14sp" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/colorDivider" android:layout_marginBottom="8dp" />
+
+            <!-- Sugar row -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:text="🍬  Sugar" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                <TextView android:id="@+id/tvDetailSugar" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="10g" android:textColor="@color/colorOrange" android:textStyle="bold" android:textSize="14sp" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/colorDivider" android:layout_marginBottom="8dp" />
+
+            <!-- Sodium row -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="14dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:text="🧂  Sodium" android:textColor="@color/colorTextSecondary" android:textSize="14sp" />
+                <TextView android:id="@+id/tvDetailSodium" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="1mg" android:textColor="#607D8B" android:textStyle="bold" android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- Health Benefits -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health Benefits"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvDetailBenefits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Health benefits here."
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp"
+                android:background="@color/colorBackground"
+                android:padding="12dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

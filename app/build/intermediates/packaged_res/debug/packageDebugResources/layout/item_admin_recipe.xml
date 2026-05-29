@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title row + Edit + Delete -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvAdminRecipeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/actionButtons"
+                android:text="Recipe Title"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/actionButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true">
+
+                <!-- Edit button -->
+                <ImageView
+                    android:id="@+id/ivEditRecipe"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:tint="@color/colorPrimary"
+                    android:padding="4dp"
+                    android:layout_marginEnd="8dp" />
+
+                <!-- Delete button -->
+                <ImageView
+                    android:id="@+id/ivDeleteAdminRecipe"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@android:drawable/ic_menu_delete"
+                    android:tint="@color/colorRed"
+                    android:padding="4dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- Category + Time + Calories -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvAdminRecipeCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breakfast"
+                android:textColor="@color/colorWhite"
+                android:textSize="11sp"
+                android:background="@color/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+
+            <TextView
+                android:id="@+id/tvAdminRecipeTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⏱ 10 min"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:id="@+id/tvAdminRecipeCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔥 200 kcal"
+                android:textColor="@color/colorOrange"
+                android:textSize="12sp"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
+
+        <!-- Tap to expand hint -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap card to see details"
+            android:textColor="@color/colorLightGreen"
+            android:textSize="11sp"
+            android:layout_marginTop="6dp" />
+
+        <!-- Expandable Ingredients (hidden by default) -->
+        <TextView
+            android:id="@+id/tvAdminRecipeIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="13sp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:background="@color/colorBackground"
+            android:padding="10dp" />
+
+        <!-- Expandable Instructions (hidden by default) -->
+        <TextView
+            android:id="@+id/tvAdminRecipeInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="13sp"
+            android:layout_marginTop="6dp"
+            android:visibility="gone"
+            android:padding="10dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

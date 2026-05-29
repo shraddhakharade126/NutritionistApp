@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B5E20</color>
+    <color name="colorPrimaryDark">#003300</color>
+    <color name="colorAccent">#76C442</color>
+    <color name="colorGreen">#2E7D32</color>
+    <color name="colorLightGreen">#A5D6A7</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackground">#F1F8E9</color>
+    <color name="colorCardBg">#FFFFFF</color>
+    <color name="colorTextPrimary">#1B2A1B</color>
+    <color name="colorTextSecondary">#546E54</color>
+    <color name="colorOrange">#FF7043</color>
+    <color name="colorGold">#FFC107</color>
+    <color name="colorSurface">#E8F5E9</color>
+    <color name="colorDivider">#C8E6C9</color>
+    <color name="colorRed">#E53935</color>
+    <color name="colorBlue">#1565C0</color>
+    <color name="colorGradientStart">#1B5E20</color>
+    <color name="colorGradientEnd">#43A047</color>
+    <color name="statusBarColor">#003300</color>
+</resources>

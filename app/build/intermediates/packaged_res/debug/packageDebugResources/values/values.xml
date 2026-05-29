@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#76C442</color>
+    <color name="colorBackground">#F1F8E9</color>
+    <color name="colorBlue">#1565C0</color>
+    <color name="colorCardBg">#FFFFFF</color>
+    <color name="colorDivider">#C8E6C9</color>
+    <color name="colorGold">#FFC107</color>
+    <color name="colorGradientEnd">#43A047</color>
+    <color name="colorGradientStart">#1B5E20</color>
+    <color name="colorGreen">#2E7D32</color>
+    <color name="colorLightGreen">#A5D6A7</color>
+    <color name="colorOrange">#FF7043</color>
+    <color name="colorPrimary">#1B5E20</color>
+    <color name="colorPrimaryDark">#003300</color>
+    <color name="colorRed">#E53935</color>
+    <color name="colorSurface">#E8F5E9</color>
+    <color name="colorTextPrimary">#1B2A1B</color>
+    <color name="colorTextSecondary">#546E54</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="statusBarColor">#003300</color>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="app_name">Personal Nutritionist</string>
+    <string name="diet_plan">Diet Plan</string>
+    <string name="have_account">Already have an account? Login</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="profile">Profile</string>
+    <string name="recipes">Recipes</string>
+    <string name="register">Register</string>
+    <string name="search_food">Search Food / Fruit / Vegetable</string>
+    <string name="tagline">Your Health, Your Life</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+    </style>
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardBackgroundColor">@color/colorCardBg</item>
+    </style>
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/colorSurface</item>
+        <item name="chipStrokeColor">@color/colorAccent</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="GreenButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+    <style name="InputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="hintTextColor">@color/colorPrimary</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    <style name="OutlineGreenButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="cornerRadius">30dp</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="TabStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabSelectedTextColor">@color/colorWhite</item>
+        <item name="tabTextColor">@color/colorLightGreen</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+</resources>

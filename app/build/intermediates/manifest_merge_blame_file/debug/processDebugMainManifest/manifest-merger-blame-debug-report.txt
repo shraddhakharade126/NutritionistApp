@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nutritionist.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:5:5-80
+11-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+12-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:6:5-78
+12-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:7:5-76
+13-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:8:5-66
+14-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:8:22-63
+15    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+15-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:9:5-74
+15-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:9:22-71
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:10:5-66
+16-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:11:5-78
+17-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:11:22-76
+18
+19    <permission
+19-->[androidx.core:core:1.10.1] C:\Users\HP\.gradle\caches\transforms-4\0b2cdb2d0aa4c0d5959a9ab8e156d3fe\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+20        android:name="com.nutritionist.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.10.1] C:\Users\HP\.gradle\caches\transforms-4\0b2cdb2d0aa4c0d5959a9ab8e156d3fe\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.10.1] C:\Users\HP\.gradle\caches\transforms-4\0b2cdb2d0aa4c0d5959a9ab8e156d3fe\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.nutritionist.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.10.1] C:\Users\HP\.gradle\caches\transforms-4\0b2cdb2d0aa4c0d5959a9ab8e156d3fe\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.10.1] C:\Users\HP\.gradle\caches\transforms-4\0b2cdb2d0aa4c0d5959a9ab8e156d3fe\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:13:5-49:19
+26        android:allowBackup="true"
+26-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:14:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.10.1] C:\Users\HP\.gradle\caches\transforms-4\0b2cdb2d0aa4c0d5959a9ab8e156d3fe\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:15:9-43
+31        android:label="@string/app_name"
+31-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:16:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:17:9-54
+33        android:supportsRtl="true"
+33-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:18:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:19:9-40
+36        <activity
+36-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:21:9-28:20
+37            android:name="com.nutritionist.app.SplashActivity"
+37-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:21:19-49
+38            android:exported="true"
+38-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:22:13-36
+39            android:noHistory="true" >
+39-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:23:13-37
+40            <intent-filter>
+40-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:24:13-27:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:25:17-68
+41-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:26:17-76
+43-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:30:9-78
+47            android:name="com.nutritionist.app.RegisterActivity"
+47-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:30:19-51
+48            android:exported="false" />
+48-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:30:52-76
+49        <activity
+49-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:31:9-75
+50            android:name="com.nutritionist.app.LoginActivity"
+50-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:31:19-48
+51            android:exported="false" />
+51-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:31:49-73
+52        <activity
+52-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:32:9-74
+53            android:name="com.nutritionist.app.MainActivity"
+53-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:32:19-47
+54            android:exported="false" />
+54-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:32:48-72
+55        <activity
+55-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:33:9-80
+56            android:name="com.nutritionist.app.FoodDetailActivity"
+56-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:33:19-53
+57            android:exported="false" />
+57-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:33:54-78
+58        <activity
+58-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:34:9-78
+59            android:name="com.nutritionist.app.DietPlanActivity"
+59-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:34:19-51
+60            android:exported="false" />
+60-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:34:52-76
+61        <activity
+61-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:35:9-77
+62            android:name="com.nutritionist.app.RecipesActivity"
+62-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:35:19-50
+63            android:exported="false" />
+63-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:35:51-75
+64        <activity
+64-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:36:9-79
+65            android:name="com.nutritionist.app.AddRecipeActivity"
+65-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:36:19-52
+66            android:exported="false" />
+66-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:36:53-77
+67        <activity
+67-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:37:9-77
+68            android:name="com.nutritionist.app.ProfileActivity"
+68-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:37:19-50
+69            android:exported="false" />
+69-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:37:51-75
+70        <activity
+70-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:38:9-84
+71            android:name="com.nutritionist.app.AdminDashboardActivity"
+71-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:38:19-57
+72            android:exported="false" />
+72-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:38:58-82
+73        <activity
+73-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:39:9-81
+74            android:name="com.nutritionist.app.ManageUsersActivity"
+74-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:39:19-54
+75            android:exported="false" />
+75-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:39:55-79
+76        <activity
+76-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:40:9-83
+77            android:name="com.nutritionist.app.AdminRecipesActivity"
+77-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:40:19-55
+78            android:exported="false" />
+78-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:40:56-80
+79
+80        <receiver
+80-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:42:9-47:20
+81            android:name="com.nutritionist.app.ReminderReceiver"
+81-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:42:19-51
+82            android:exported="false" >
+82-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:43:13-37
+83            <intent-filter>
+83-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:44:13-46:29
+84                <action android:name="android.intent.action.BOOT_COMPLETED" />
+84-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:45:17-78
+84-->D:\CO6K\MAD\NutritionistApp\app\src\main\AndroidManifest.xml:45:25-76
+85            </intent-filter>
+86        </receiver>
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+90            android:authorities="com.nutritionist.app.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-4\e4c4a0c2fd957a6addbaa114cb5bb76c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+98        </provider>
+99    </application>
+100
+101</manifest>
