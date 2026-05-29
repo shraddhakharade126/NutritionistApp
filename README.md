@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Nutritionist App
 
 A complete Android application built with Java + SQLite.
@@ -32,3 +33,7 @@ Apple, Banana, Mango, Orange, Grapes, Watermelon, Strawberry,
 Broccoli, Spinach, Carrot, Tomato, Potato, Onion,
 Rice, Oats, Wheat, Chicken, Egg, Salmon, Lentils,
 Milk, Yogurt, Almonds, Avocado, Sweet Potato
+=======
+# NutritionistApp
+This  is repository for Mobile application development by android project for your presonal nutritionist.
+>>>>>>> d391db6063ff18a82079f0f681739c7f4d056045
